@@ -1,7 +1,6 @@
 package com.uapa.view;
 
 import com.uapa.controller.InvoiceController;
-import com.uapa.model.Invoice;
 import com.uapa.model.InvoiceItem;
 import com.uapa.observer.InvoiceGUIObserver;
 import com.uapa.observer.InvoiceObserver;
@@ -15,7 +14,6 @@ import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 public class InvoiceRealView extends JFrame {
     private final InvoiceController controller;
